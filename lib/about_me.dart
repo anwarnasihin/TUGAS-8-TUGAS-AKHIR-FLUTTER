@@ -69,31 +69,31 @@ class AboutMe extends StatelessWidget {
               ),
               
               child: ClipOval(
-                child: Padding(
-                  padding: const EdgeInsets.all(25), // jarak biar tidak mepet
                   child: Image.asset(
-                    "assets/images/logo1.png",
-                    fit: BoxFit.contain, // PENTING: tidak terpotong
+                    "assets/images/Person.png",
+                    fit: BoxFit.cover,
+                    width: 200,
+                    height: 200, // PENTING: tidak terpotong
                   ),
-                ),
               ),
             ),
           ),
 
           SizedBox(height: 20),
           Text(
-            "PM News",
+            "Anwar Nasihin",
             style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
           ),
-          Text("Ulasan tentang aplikasi"),
+          Text("Mobile Developer"),
           SizedBox(height: 30),
 
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
             child: Text(
-              "PM News adalah aplikasi mobile berita yang saya bangun untuk menyajikan informasi terkini secara cepat, akurat, dan mudah diakses. "
-              "Aplikasi ini dirancang agar pengguna dapat membaca berita terbaru kapan saja melalui tampilan yang sederhana, ringan, dan nyaman digunakan. "
-              "Saya berkomitmen menghadirkan berita yang relevan, terpercaya, dan terus diperbarui setiap hari.",
+              "Hallo Nama saya Anwar peserta Bootcamp Flutter yang antusian mempelajari mobile development di programmer Muda."
+              " Aplikasi PM News adalah hasil dari perjalanan belajar saya selama mengikuti Bootcamp Flutter. "
+              "Melalui Aplikasi ini , saya berusaha menerapkan praktik coding yang telah saya pelajari,"
+              "mulai dari slicing UI di Figma, logic pemrograman di Dart hingga API public yang saya gunakan.",
               textAlign: TextAlign.justify,
             ),
           ),
@@ -116,16 +116,16 @@ class AboutMe extends StatelessWidget {
                     children: [
                       Icon(Icons.phone_rounded, size: 20),
                       SizedBox(width: 10),
-                      Text("+62 823-XXX-XXX"),
+                      Text("+62 823-1933-3774"),
                     ],
                   ),
                   SizedBox(height: 15),
 
                   Row(
                     children: [
-                      Icon(Icons.public, size: 20),
+                      Icon(Icons.email, size: 20),
                       SizedBox(width: 10),
-                      Text("pmnews.com"),
+                      Text("anwarnasihin555@gmail.com"),
                     ],
                   ),
                 ],
