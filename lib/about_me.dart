@@ -90,7 +90,7 @@ class AboutMe extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
             child: Text(
-              "Hallo Nama saya Anwar peserta Bootcamp Flutter yang antusian mempelajari mobile development di programmer Muda."
+              "Hallo Nama saya Anwar peserta Bootcamp Flutter yang antusias mempelajari mobile development di programmer Muda."
               " Aplikasi PM News adalah hasil dari perjalanan belajar saya selama mengikuti Bootcamp Flutter. "
               "Melalui Aplikasi ini , saya berusaha menerapkan praktik coding yang telah saya pelajari,"
               "mulai dari slicing UI di Figma, logic pemrograman di Dart hingga API public yang saya gunakan.",
@@ -107,7 +107,7 @@ class AboutMe extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    "Service Contact",
+                    "Contact Info",
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                   SizedBox(height: 30),
