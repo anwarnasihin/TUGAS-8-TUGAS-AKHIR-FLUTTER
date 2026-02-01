@@ -116,7 +116,7 @@ class AboutMe extends StatelessWidget {
                     children: [
                       Icon(Icons.phone_rounded, size: 20),
                       SizedBox(width: 10),
-                      Text("+62 823-1933-3774"),
+                      Text("+62 823-xxxx-xxxx"),
                     ],
                   ),
                   SizedBox(height: 15),
@@ -125,7 +125,7 @@ class AboutMe extends StatelessWidget {
                     children: [
                       Icon(Icons.email, size: 20),
                       SizedBox(width: 10),
-                      Text("anwarnasihin555@gmail.com"),
+                      Text("anwarnasihin@xyz.com"),
                     ],
                   ),
                 ],
